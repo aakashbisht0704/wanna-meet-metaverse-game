@@ -2,8 +2,14 @@ import { Router } from "express";
 
 export const userRouter = Router();
 
-userRouter.get("/metadata", (req, res) => {
-    res.json({
-        nigaa: "yaa",
-    })
+userRouter.post("/metadata", (req, res) => {
+    // res.json({
+    //     nigaa: "yaa",
+    // })
+})
+
+userRouter.get("/metadata/bulk", (req, res) => {
+    // res.json({
+    //     nigaa: "yaa",
+    // })
 })
